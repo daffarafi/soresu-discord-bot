@@ -1,0 +1,17 @@
+{
+  "name": "soresu-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.9.0",
+    "dotenv": "^16.0.3"
+  },
+  "scripts": {
+    "deploy": "node deploy-commands.js",
+    "dev": "node ."
+  },
+  "devDependencies": {
+    "eslint": "^8.0.1"
+  }
+}
